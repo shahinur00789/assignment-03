@@ -15,6 +15,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'primari-bg': '#ABEF5F',
+                'semi-primari-bg': '#ABEF5F33',
               }
             }
           }
@@ -22,10 +24,91 @@
       </script>
 
       <!-- font cdn -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+
+      <!-- font awsome cdn -->
+      <script src="https://kit.fontawesome.com/3ae38e1d82.js" crossorigin="anonymous"></script>
 
     
+
+      <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+      </style>
 </head>
-<body>
+<body class="font-manrope">
+
+    <!-- header section -->
+     <header class="container mx-auto bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF]">
+
+        <!-- nav section -->
+
+
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+          
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-primari-bg rounded-full p-1"></i>
+            <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>
+              <li><a class="text-[#737373]">Services</a></li>
+              <li><a class="text-[#737373]">Portfolio</a></li>
+              <li><a class="text-[#737373]">Blogs</a></li>
+              <li><a class="text-[#737373]">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end invisible lg:visible space-x-7">
+            <i class="fa-solid fa-magnifying-glass bg-white rounded-full"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class="bg-primari-bg p-2 rounded-2xl">Book Consult
+              <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i>
+            </button>
+              
+          </div><div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                <li><a class="font-bold">Home</a></li>
+              <li><a class="text-[#737373]">Services</a></li>
+              <li><a class="text-[#737373]">Portfolio</a></li>
+              <li><a class="text-[#737373]">Blogs</a></li>
+              <li><a class="text-[#737373]">Contact Us</a></li>
+              </ul>
+            </div>
+        </div>
+
+       
+
+
+        
+<!-- banner section -->
+
+
+
+     <!-- main section -->
+      <main>
+        
+
+
+
+
+      </main>
+
+
+      <!-- footer section -->
+       <footer>
+
+       </footer>
     
 </body>
 </html>
