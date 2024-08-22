@@ -20,10 +20,7 @@
                 
                 
               },
-              backgroundImage: {
-        'paper': "url('/asets/bg.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')",
-            }
+              
           }
         }}
       </script>
@@ -105,9 +102,7 @@
   <div class="text-center space-y-4">
     <h1 class="text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
-    <button class="bg-semi-primari-bg p-4 rounded-3xl font-extrabold">View Details
-      <i class="fa-solid fa-arrow-right -rotate-45 bg-primari-bg rounded-full p-1"></i>
-    </button>
+     
   
   </div>
 </div>
@@ -245,19 +240,45 @@ modern sophistication, featuring weathered wood, sleek metal accents.
 
          <!-- connect section -->
 
-         <div class="mt-20 paper ">
-          <div class="text-center space-y-4">
+         <div class="bg-no-repeat bg-cover pb-20" style="background-image: url(assets/bg.jpg);">
+
+
+          <div class="container mx-auto">
+
+            <!-- text -->
+         
+         <div class="text-center space-y-4 ">
             
-          <button class="bg-white rounded-3xl mt-4 p-2"><i class="fa-solid fa-arrow-right"></i>
-            <small class="font-bold">How we works</small>
+          <button class="bg-semi-primari-bg rounded-3xl mt-4 p-4"><i class="fa-solid fa-arrow-right"></i>
+            <small class="font-bold">Let’s Connect</small>
           
         </button>
         
-        <h1 class="text-4xl font-extrabold">Our Works Process</h1>
-        <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
-          </div>
-         </div>
+        <h1 class="text-4xl font-extrabold">Let’s Discuss Next Project</h1>
+        <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents..</p>
 
+          </div>
+
+
+          <!-- input -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 mt-5">
+            <input type="text" placeholder="First Name*" class="input input-bordered w-full rounded-full" />
+            <input type="text" placeholder="Last Name*" class="input input-bordered w-full rounded-full" />
+            <input type="text" placeholder="Phone Number*" class="input input-bordered w-full rounded-full" />
+            <input type="text" placeholder="Email Number*" class="input input-bordered w-full rounded-full" />
+
+          </div>
+          <textarea class="textarea textarea-bordered w-full mt-5 rounded-2xl h-[240px]" placeholder="Write your message here"></textarea>
+          
+          <button class="bg-primari-bg p-4 rounded-3xl font-extrabold w-full">Send Mail
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1 ml-2"></i>
+          </button>
+          
+
+          </div>
+
+         
+       </div>
          
 
 
